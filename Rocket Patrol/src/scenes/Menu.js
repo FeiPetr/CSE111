@@ -5,7 +5,7 @@ class Menu extends Phaser.Scene{ //creating js class 'menu' that extends phaser'
     }
 
     create(){
-        this.add.text(20,20,"Rocket Patrol Menu");
+       // this.add.text(20,20,"Rocket Patrol Menu");
         this.scene.start("playScene"); 
         // This line of code tells the current scene to start a new scene, 
         // and the parameter we pass to the start() method is the string key we assigned to the Play scene.
