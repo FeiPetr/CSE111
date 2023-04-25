@@ -11,7 +11,6 @@ class Menu extends Phaser.Scene{ //creating js class 'menu' that extends phaser'
         this.load.audio('sfx_rocket', './assets/rocket_shot.wav');
     }
       
-
     create(){
        // this.add.text(20,20,"Rocket Patrol Menu");
         // menu text configuration
